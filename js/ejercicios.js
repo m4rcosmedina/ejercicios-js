@@ -86,8 +86,26 @@
 
     console.log(frase);
 
-
+*/
     //9
+
+    let = frase = prompt('Ingrese una frase');
+
+    console.log(frase)
+    console.log(frase.length);
+    console.log(frase.charAt(0))
+
+    for(let posicion = 0; posicion < frase.length; posicion++ ){
+        if(frase.charAt(posicion) == 'a' || frase.charAt(posicion) =='e' ||
+         frase.charAt(posicion) == 'i' || frase.charAt(posicion) == 'o' || frase.charAt(posicion) =='u'){
+             document.write(frase.charAt(posicion));
+         };
+    }
+
+
+    
+
+   
 
 
 
@@ -95,7 +113,7 @@
 
 
     //ejercicio 10
-
+/*
     let numero = parseInt(prompt('Por favor, ingrese un numero'))
 
     if (numero % 2 === 0 || numero % 3 === 0 || numero % 5 === 0 || numero % 7 === 0) {
@@ -130,3 +148,6 @@
     }
 
     */
+
+    // clase 3
+    

@@ -1,5 +1,3 @@
-    
-    
     /*
     
     Comenzamos con JS:
@@ -86,7 +84,7 @@
 
     console.log(frase);
 
-*/
+
     //9
 
     let = frase = prompt('Ingrese una frase');
@@ -150,4 +148,121 @@
     */
 
     // clase 3
+
+    //ejercicios de Bucles. 
+
+    //1
+
+    /* let edad = parseInt(prompt('Por favor, Indique su edad'))
+    console.log = edad
+    if ( edad>=18 ){
+        document.write('Felicitaciones, usted puede conducir');
+    }else{
+        document.write('Usted aun no puede conducir, lo lamentamos');
+    } 
+
+    //
+    //ejercicio 2
+
+    let nota = parseInt(prompt('Por favor, indique su nota'));
+    const frase = ('La nota es = ');
+    let calificacionUno = ('Muy deficiente');
+    let calificacionDos = ('Insuficiente');
+    let calificaciontres = ('suficiente');
+    let calificacionCuatro = ('Bien');
+    let calificacionCinco = ('Notable');
+    let calificacionSeis = ('Sobresaliente');
+
+
+
+    switch(nota){
+        case 0 :
+            document.write( frase + calificacionUno);
+        break;
+        case 1 :
+            document.write( frase + calificacionUno);
+        break;
+        case 2 :
+            document.write( frase + calificacionUno);
+        break;
+        case 3 :
+            document.write( frase + calificacionDos);
+        break;
+        case 4 :
+            document.write( frase + calificacionDos);
+        break;
+        case 5 :
+            document.write( frase + calificaciontres);
+        break;
+        case 6 :
+            document.write( frase + calificaciontres);
+        break;
+        case 7:
+            document.write( frase + calificacionCuatro);
+        break;
+        case 8 :
+            document.write ( frase + calificacionCinco);
+        break;
+        case 9 :
+            document.write ( frase + calificacionCinco);
+        break;
+        case 10:
+            document.write ( frase + calificacionSeis);
+        break;
+        default:
+            alert('Numero erroneo');
+            alert('Ingrese un numero valido');
+            break;
+    }
+
+
+//ejercicio 3
+
     
+ let frase="";
+
+do{
+    let otraFrase=prompt("ingrese un texto");
+    if(frase==""){
+        frase=frase+otraFrase;
+    }else{
+        frase=frase+"-"+otraFrase;
+    }
+
+
+}while(confirm("desea ingresar otro texto?"))
+
+document.write(frase);   
+
+    // EJERCICIO 4
+
+    let numeros = 0;
+
+    do {
+        let cadenaNum = parseInt(prompt('ingrese un numero'));
+        numeros = numeros + cadenaNum;
+    } while (confirm('agregue otro numero'))
+    document.write(numeros);
+
+    
+   
+    //6
+    
+
+
+    for( let numero = 1; numero <= 30 ; numero++){
+     for( let rep = 0; rep < numero ; rep++) {  
+    
+    document.write(numero)}
+    document.write('<br>');
+    }
+*/
+let numero = parseInt(prompt('indique un numero menor a 50'))
+       
+for(numero; numero <=50 ; numero--) {
+    for ( let rep = 50; rep < numero ; rep--){
+        document.write(numero)}
+        document.write('<br>')
+    }
+  
+   

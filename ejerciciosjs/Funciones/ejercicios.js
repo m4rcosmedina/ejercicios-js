@@ -34,17 +34,19 @@ let res = numeroEntero(num);
 
  function fraseSolicitada(frase){
 
-    for(let posicion = 0; posicion <frase.length; posicion++){
-        if(){
-            return 'La frase contiene solo mayusculas'
-        }else if(){
-            return 'La frase contiene solo minusuculas'
+        if((frase===frase.toUpperCase())){
+            return 'La frase contiene solo mayusculas';
+        }else if(frase===frase.toLowerCase()){
+            return 'La frase contiene solo minusuculas';
         }else{
-            return 'La frase contiene mayusculas y minusculas'
+            return 'La frase contiene mayusculas y minusculas';
         }
     }
 
- }
+    let texto = prompt('Ingrese la frase a analisar por favor')
+
+    document.write(fraseSolicitada(texto));
+ 
 
 
 

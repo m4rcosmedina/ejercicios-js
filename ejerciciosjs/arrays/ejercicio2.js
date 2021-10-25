@@ -1,24 +1,34 @@
+/*2-  Crear un script que solicite al usuario mediante un prompt el nombre de ciudades 
+y almacenarlas en un arreglo, cuando el usuario seleccione cancelar o ingrese el valor “0” se debe
+ mostrar el arreglo generado, luego realizar las siguientes acciones:
 
-   let ciudades = [];
+Mostrar la longitud del arreglo.
+Mostrar en el documento web los ítems de las posiciones primera, tercera y última.
+Añade en última posición la ciudad de París.
+Escribe por pantalla el elemento que ocupa la segunda posición.
+Sustituye el elemento que ocupa la segunda posición por la ciudad de 'Barcelona'. */
 
-   do{
-       let nombresCiudades=prompt("ingrese el nombre de una ciudad");
-       if(ciudades==""){
-           ciudades=ciudades+nombresCiudades;
-       }else{
-           ciudades=ciudades+"-"+nombresCiudades;
-       }
-   
-   
-   }while(confirm("desea ingresar otra ciudad?"))
-   
-   document.write(ciudades);
+let ciudades = []
 
-   console.log(length.ciudades) 
+do {
+    let agregarCiudades = prompt('Ingrese el nombre de una ciudad o 0 para salir');
+    if (agregarCiudades !== "0") {
+        ciudades.push(agregarCiudades);
+    }
 
-   let ciudades = [];
+} while (confirm('Ingrese otra ciudad'))
 
-   for (i = 0 ; i <= ciudades.length; i++){
-       x = prompt ('Ingrese una ciudad');
-       ciudades.push(x);
-   } 
+ciudades.push('París');
+
+document.write('Las ciudades ingresadas son: ' + ciudades);
+document.write(' <br> La longitud del arreglo es ' + ciudades.length);
+
+
+
+console.log('Ultimo elemento', ciudades[ciudades.length - 1]);
+console.log('Tercer elemento', ciudades[ciudades.length, 2]);
+console.log('primer elemento', ciudades[ciudades.length, 0]);
+
+
+document.write(`<br> Segunda ciudad agregada ${ciudades[ciudades.length, 1]}`);
+

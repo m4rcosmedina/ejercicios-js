@@ -2,21 +2,10 @@
 
 1- Crea un objeto llamado auto que tenga algunas características como el color
 , marca, modelo y si está encendido o apagado. 
-Crea los métodos necesarios para permitir encender y apagar el auto.
+Crea los métodos necesarios para permitir encender y apagar el auto.*/
 
-Modelando clases
 
-Cuenta bancaria
-2-Escribe un programa que cree un objeto "cuenta" con las siguientes propiedades:
-Una propiedad titular con el valor "Alex".
-Una propiedad saldo, teniendo como valor inicial 0.
-Un método ingresar() que permita añadir dinero a la cuenta, pasando la cantidad como parámetro
-Un método extraer() que permita retirar la cantidad pasada como parámetro.
-Un método informar() que retorne la información del estado de la cuenta. 
-Utiliza este objeto para mostrar la descripción, ingresar y extraer dinero y volver a mostrar la descripción del estado de la cuenta.
-Rectángulos
-3-Escribe una clase que permita crear distintos objetos “rectángulos”, con las propiedades de alto y ancho, mas los métodos necesarios para modificar y mostrar sus propiedades, calcular el perímetro y el área
- */
+
 
 let auto = {
     marca: "Volkswagen",

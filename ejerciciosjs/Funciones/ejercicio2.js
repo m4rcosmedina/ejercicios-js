@@ -15,6 +15,6 @@ de texto que se le pasa como argumento.
     }
 }
 
-let texto = prompt('Ingrese la frase a analisar por favor')
+let texto = prompt('Ingrese la frase a analizar por favor')
 
 document.write(fraseSolicitada(texto));

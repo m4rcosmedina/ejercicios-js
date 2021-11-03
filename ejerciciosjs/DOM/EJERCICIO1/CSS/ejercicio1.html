@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Etiquetas meta-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>JUEGO</title>
+
+
+</head>
+
+<body>
+    <main>
+        <section class="bg-dark container-fluid py-4">
+            <article class="container class text-light">
+                <h1 id="titulo"> Pulsa el boton para comenzar el juego!</h1>
+                <hr>
+                <button class="btn btn-secondary" onclick="generarNumero()">COMENZAR!</button>
+            </article>
+        </section>
+        <section class="container my-5" id='contenedorPrincipal'>
+            <h2> CUAL CREÉS QUE FUE EL NUMERO? Puede ser entre 1 y 100 ;) </h2>
+            <hr>
+            <div id="contenedorPadre">
+            <br>
+            <button class="btn btn-danger" onclick="numeroUsuario()" id="numUsuario">A VERRR</button>
+                </div>
+        </section>
+    </main>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="/ejerciciosjs/DOM/EJERCICIO1/JS/app.js"></script>
+</body>
+
+</html>
